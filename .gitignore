@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and model artifacts
+data/
+dataset/
+chest_xray/
+*.h5
+*.keras
+*.ckpt
+*.zip
+
+# Local outputs
+outputs/
+gradcam/
+saliency/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
